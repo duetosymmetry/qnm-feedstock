@@ -36,6 +36,13 @@ about:
   license_family: MIT
   license_file: "LICENSE"
   summary: "Package for computing Kerr quasinormal mode frequencies, separation constants, and spherical-spheroidal mixing coefficients"
+  description: |
+    qnm is an open-source Python package for computing the Kerr
+    quasinormal mode frequencies, angular separation constants,
+    and spherical-spheroidal mixing coefficients. The qnm package 
+    includes a Leaver solver with the Cook-Zalutskiy spectral approach
+    to the angular sector, and a caching mechanism to avoid repeating
+    calculations.
   doc_url: "https://qnm.readthedocs.io/"
   dev_url: "https://github.com/duetosymmetry/qnm/"
 
